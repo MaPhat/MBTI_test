@@ -404,5 +404,5 @@ if st.button("Kết quả"):
         text += 'J'
     else:
         text += 'P'
-    image = "Image\\" + text + '.png'
+    image = "Image/" + text + '.png'
     st.image(image)
